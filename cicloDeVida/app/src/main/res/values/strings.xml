@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">cicloDeVida</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_fragment2">Hello blank fragment2</string>
+
+    <!-- Recursos de fragmentos-->
+    <string name="btninfo">Info</string>
+    <string name="title_activity_list_view">ListViewActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="identificador">TEXTO_IDENTIFICADOR</string>
+    <string name="IngresaTitulo">Ingresa el titulo del libro</string>
+    <string name="IngresaAutor">Ingresa el autor del libro</string>
+    <string name="IngresaPrecio">Ingresa el precio del libro</string>
+    <string name="Configuracion">Configuracion</string>
+    <string name="Agregar">Agregar</string>
+    <string name="Ayuda">Ayuda</string>
+    <string name="Salir">Salir</string>
+    <string name="Editar">Editar</string>
+    <string name="Eliminar">Eliminar</string>
+    <string name="CambiarTexto">Cambiar Texto</string>
+    <string name="CambiarColor">Cambiar Color</string>
+    <string name="Deshabilitar">Deshabilitar</string>
+
+</resources>

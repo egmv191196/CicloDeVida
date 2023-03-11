@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory>
+        <SwitchPreference
+            android:key="miniaturas"
+            android:title="Habilitar miniaturas"
+            />
+    </PreferenceCategory>
+    <PreferenceCategory>
+        <SwitchPreference
+            android:key="idioma"
+            android:title="esp-ing"
+            />
+        <EditTextPreference
+            android:key="Extra"
+            android:title="Extra"
+            />
+    </PreferenceCategory>
+
+</PreferenceScreen>

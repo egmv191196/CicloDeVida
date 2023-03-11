@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mnConfigurar"
+        android:enabled="true"
+        android:title="@string/Configuracion"
+        app:showAsAction="collapseActionView"
+        android:icon="@drawable/configurar"/>
+    <item
+        android:id="@+id/mnAyuda"
+        android:enabled="true"
+        android:title="@string/Ayuda"
+        app:showAsAction="collapseActionView"
+        android:icon="@drawable/ayuda"/>
+    <item
+        android:id="@+id/mnAgregar"
+        android:enabled="true"
+        android:title="@string/Agregar"
+        app:showAsAction="always"
+        android:icon="@drawable/agregar"/>
+
+    <item
+        android:id="@+id/mnSalir"
+        android:enabled="true"
+        android:title="@string/Salir"
+        app:showAsAction="collapseActionView"
+        android:icon="@drawable/exit"/>
+
+
+
+</menu>

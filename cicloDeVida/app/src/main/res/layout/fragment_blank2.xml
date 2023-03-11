@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlankFragment2">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/Titulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="REGISTRAR DATOS DEL VEHICULO"
+                />
+            <TextView
+                android:id="@+id/Marca"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ingresa la marca"
+                />
+            <EditText
+                android:id="@+id/eMarca"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Marca"/>
+            <TextView
+                android:id="@+id/Placa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ingresa el numero de placa"
+                />
+            <EditText
+                android:id="@+id/editPlaca"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Placa"/>
+            <TextView
+                android:id="@+id/age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ingresa la edad"
+                />
+            <EditText
+                android:id="@+id/editAge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Ingresa la edad"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
